@@ -4,10 +4,11 @@ function receivesAFunction(callback) {
   
   function returnsANamedFunction() {
     return function named() {
-      return 'be cool'
+      return
     };
   }
   
   function returnsAnAnonymousFunction() {
-    return () => 'be cool';
+    return 
+    ;
   }
